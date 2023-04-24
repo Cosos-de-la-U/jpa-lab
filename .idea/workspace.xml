@@ -11,15 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aeb61565-f952-41db-8471-062f6f68b482" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controladores/ProductoJpaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controladores/ProductoJpaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/modelos/Ordenes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelos/Ordenes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/modelos/Productos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelos/Productos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/modelos/controladorProducto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/modelos/controladorProducto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servlets_sis/servlet_producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets_sis/servlet_producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/vistas/add_producto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vistas/add_producto.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/vistas/udp_producto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vistas/udp_producto.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/vistas/view_producto.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/vistas/view_producto.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

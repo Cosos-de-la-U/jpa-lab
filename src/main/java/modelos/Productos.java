@@ -15,8 +15,9 @@ public class Productos implements Serializable {
     private String descripcion;
     private double precio_unitario;
     private String categoria;
+
     @OneToOne
-    @JoinColumn(name = "orden_id")
+    @JoinColumn(name = "orden_id_orden")
     private Ordenes orden;
 
     public Ordenes getOrden() {
