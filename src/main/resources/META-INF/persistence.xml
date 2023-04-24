@@ -5,7 +5,7 @@
              version="3.0">
     <persistence-unit name="pruebaJPAPU" transaction-type="RESOURCE_LOCAL">
         <class>modelos.Productos</class>
-        <class>modelos.Ordenes</class>
+        <!--class>modelos.Ordenes</class-->
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver" /> <!-- DB Driver -->
             <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/lab" /> <!-- BD Mane -->

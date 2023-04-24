@@ -16,17 +16,17 @@ public class Productos implements Serializable {
     private double precio_unitario;
     private String categoria;
 
-    @OneToOne
-    @JoinColumn(name = "orden_id_orden")
-    private Ordenes orden;
-
-    public Ordenes getOrden() {
-        return orden;
-    }
-
-    public void setOrden(Ordenes orden) {
-        this.orden = orden;
-    }
+//    @OneToOne
+//    @JoinColumn(name = "orden_id_orden")
+//    private Ordenes orden;
+//
+//    public Ordenes getOrden() {
+//        return orden;
+//    }
+//
+//    public void setOrden(Ordenes orden) {
+//        this.orden = orden;
+//    }
 
     public Productos() {
     }
@@ -35,13 +35,12 @@ public class Productos implements Serializable {
         this.id_producto = id_producto;
     }
 
-    public Productos(int id_producto, String nombre, String descripcion, double precio_unitario, String categoria, Ordenes orden) {
+    public Productos(int id_producto, String nombre, String descripcion, double precio_unitario, String categoria) {
         this.id_producto = id_producto;
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.precio_unitario = precio_unitario;
         this.categoria = categoria;
-        this.orden = orden;
     }
 
     public int getId_producto() {
